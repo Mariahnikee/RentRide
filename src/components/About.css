@@ -1,0 +1,54 @@
+.about {
+  font-family: Lato, sans-serif;
+  background-color: #f1f1f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0;
+  margin-top: 1px;
+  margin-bottom:0 ;
+}
+
+.about h1 {
+  
+  font-weight: 200px;
+  font-size: 50px;
+  }
+  
+.right-about {
+  padding-left: 100px;
+}
+
+.hero h2 {
+  font-size: 50px;
+color: orange;
+}
+
+
+
+.hero p {
+  text-overflow: clip;
+padding: auto;
+}
+
+.button-two {
+  background-color: f1f1f4;
+  color: orange;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border-color: orange;
+  margin: 0px;
+}
+
+.button-two:hover {
+  background-color: orange;
+  color: black;
+}
+
+
+.hero img {
+  padding-left: 10px;
+  padding-right: 10px;
+}

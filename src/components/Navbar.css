@@ -1,0 +1,41 @@
+.Navbar {
+  font-family: Lato, sans-serif;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.logo {
+  color: black; 
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-top: 0px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu ul {
+  display: flex;
+  padding-right: 50px;
+
+  margin: 0; 
+}
+
+.menu li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+}

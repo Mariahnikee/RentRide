@@ -1,0 +1,61 @@
+.services {
+  text-align: center;
+  padding: 5px;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding: 0;
+ 
+}
+
+.card {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  width: 250px;
+  padding: 80px 130px  60px 130px ;
+  
+  margin: 30px 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: orange;
+  color: rgb(0, 0, 0);
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+
+.card p {
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.card a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: #111010;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 50px;
+color: rgb(166, 121, 39);
+}
+
