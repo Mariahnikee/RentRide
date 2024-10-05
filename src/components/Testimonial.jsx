@@ -31,9 +31,9 @@ function Testimonial() {
     <div className="testimonial">
       <h2>What Our Client Say About Us</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Ratione</p>
-      <div key={testimonys.id} className="testimonial-container">
+      <div className="testimonial-container">
         {testimonys.map(testimony => 
-          <div className="testimonial-card">
+          <div  key={testimony.id} className="testimonial-card">
             <p>{testimony.star}</p>
             <p>{testimony.testify}</p>
             <h3>{testimony.name}</h3>

@@ -1,0 +1,95 @@
+/* General styles for the banner container */
+.appstorebanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Styling for the background section */
+.background {
+  background-image: url('../assets/website/pattern.jpeg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 50px 130px;
+  width: 100%;
+  max-width: 900px; /* Limit the width for larger screens */
+}
+
+/* Text section */
+.background h2 {
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.background p {
+  margin: 20px 0;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+/* App store buttons */
+.app-buttons img {
+  width: 150px;
+  margin: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .background {
+    padding: 40px 100px;
+    max-width: 700px;
+  }
+
+  .background h2 {
+    font-size: 2rem;
+  }
+
+  .background p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .background {
+    padding: 30px 60px;
+    max-width: 500px;
+  }
+
+  .background h2 {
+    font-size: 1.8rem;
+  }
+
+  .background p {
+    font-size: 0.85rem;
+  }
+
+  .app-buttons img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .background {
+    padding: 20px 30px;
+    max-width: 80%;
+    
+  }
+
+  .background h2 {
+    font-size: 1.5rem;
+  }
+
+  .background p {
+    font-size: 0.8rem;
+  }
+
+  .app-buttons img {
+    width: 120px;
+  }
+}

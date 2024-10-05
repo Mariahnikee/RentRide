@@ -31,7 +31,7 @@ const Services = () => {
       <h2>why choose Us</h2>
       <div className="cards-container">
         {cards.map((card) => (
-          <div key={cards.id} className="card">
+          <div key={card.id} className="card">
             <div className="icon">{card.icon}</div>
             <h3>{card.title}</h3>
             <p>{card.description}</p>

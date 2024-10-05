@@ -34,16 +34,16 @@ padding: auto;
 
 .button-two {
   background-color: f1f1f4;
-  color: orange;
+  color: #111;
   font-size: 18px;
   padding: 10px 20px;
-  border-radius: 6px;
-  border-color: orange;
-  margin: 0px;
+  border-radius: 5px;
+  border-color: #f2c800;
+  cursor: pointer;
 }
 
 .button-two:hover {
-  background-color: orange;
+  background-color: #e0b700;
   color: black;
 }
 

@@ -39,7 +39,7 @@ function CarList() {
 
       <div className="product-container">
         {products.map((product) => (
-          <div key ={products.id} className="product-card">
+          <div key ={product.id} className="product-card">
             <h3>{product.speed}</h3>
             <div className="productimg">{product.image}</div>
             <p className="car-name">{product.name}</p>
@@ -49,7 +49,7 @@ function CarList() {
         ))}
         
       </div>
-      <div className="button">
+      <div className="carlist-button">
           <button className="button-two">Get Started</button>
         </div>
     </div>
